@@ -41,7 +41,7 @@ def forum(request,path):
 def blog(request, path):
     """Renders the blog page."""
 
-    return HttpResponse("Not Available Now")
+    return HttpResponse("Not Available YET")
     """
     assert isinstance(request, HttpRequest)
     return render(
