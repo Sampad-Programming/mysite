@@ -25,7 +25,8 @@ def time(request):
 
 def forum(request,path):
     """Renders the forum page."""
-    return HttpResponse("Not Available Now")
+
+    return HttpResponse("Not Available YET")
     """
     assert isinstance(request, HttpRequest)
     return render(
@@ -39,6 +40,7 @@ def forum(request,path):
     )"""
 def blog(request, path):
     """Renders the blog page."""
+
     return HttpResponse("Not Available Now")
     """
     assert isinstance(request, HttpRequest)
