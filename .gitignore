@@ -1,2 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea
+
+.pyc
+app/__pycache__/
+mysite/__init__.pyc
+mysite/__pycache__/
+mysite/settings.pyc
